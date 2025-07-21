@@ -1,0 +1,80 @@
+QWidget {
+    background-color: qlineargradient(spread:pad, x1:0.303483, y1:0, x2:0.751, y2:1, stop:0 rgba(238, 238, 238, 255), stop:1 rgba(188, 188, 188, 255));
+}
+
+QPushButton {
+    background-color: rgb(153,153,153);
+    color: rgb(243,246,244);
+    border-color: rgb(148, 148, 148);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    font:"Yu Gothic UI Semilight";
+    font-size: 16pt;
+}
+
+QPushButton#b_fin_add, QPushButton#b_fin_edit, QPushButton#b_fin_delete {
+    background-color: rgb(91,91,91);
+    color: rgb(243,246,244);
+    border-color: rgb(86, 86, 86);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    font-size: 16pt;
+    font:"Yu Gothic UI Semilight";
+}
+
+QPushButton:hover {
+    background-color: rgb(168, 168, 168);
+    border-color: rgb(74, 74, 74)
+}
+
+QPushButton#b_fin_add:hover, QPushButton#b_fin_edit:hover, QPushButton#b_fin_delete:hover {
+    background-color: rgb(106, 106, 106);
+    border-color: rgb(53, 53, 53)
+}
+
+QTableView {
+    background-color: rgb(238,238,238);
+    font: 63 9pt "Yu Gothic UI Semibold";
+    border-color: rgb(93, 93, 93);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+QHeaderView::section {
+    background-color: rgb(91,91,91);
+    color: rgb(243,246,244);
+    border-color: rgb(86, 86, 86);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    font-size: 8pt;
+    font:"Yu Gothic UI Semilight";
+}
+
+QHeaderView::section:hover {
+    background-color: rgb(106, 106, 106);
+    border-color: rgb(53, 53, 53)
+}
+
+QTableView::item:focus{
+    background-color: rgb(168, 168, 168);
+    border-color: rgb(74, 74, 74)
+}
+
+QTableView::item {
+    selection-background-color: rgb(168, 168, 168);
+}
+
+QLabel#lb_curBalance, QLabel#lb_categories {
+    background-color: none;
+    font: 63 20pt "Yu Gothic UI Semibold";
+}
+
+QLabel {
+    background-color: none;
+    font: 63 14pt "Yu Gothic UI Semibold";
+}
+

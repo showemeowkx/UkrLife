@@ -1,0 +1,90 @@
+QWidget {
+    background-color: qlineargradient(spread:pad, x1:0.303483, y1:0, x2:0.751, y2:1, stop:0 rgba(238, 238, 238, 255), stop:1 rgba(188, 188, 188, 255));
+}
+
+QPushButton {
+    background-color: rgb(153,153,153);
+    color: rgb(243,246,244);
+    border-color: rgb(148, 148, 148);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    font:"Yu Gothic UI Semilight";
+    font-size: 10pt;
+}
+
+QPushButton#b_tag_search, QPushButton#b_tag_pin, QPushButton#b_tag_unpin {
+    background-color: rgb(91,91,91);
+    color: rgb(243,246,244);
+    border-color: rgb(86, 86, 86);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    font-size: 12pt;
+    font:"Yu Gothic UI Semilight";
+}
+
+QPushButton:hover {
+    background-color: rgb(168, 168, 168);
+    border-color: rgb(74, 74, 74)
+}
+
+QPushButton#b_tag_search:hover, QPushButton#b_tag_pin:hover, QPushButton#b_tag_unpin:hover {
+    background-color: rgb(106, 106, 106);
+    border-color: rgb(53, 53, 53)
+}
+
+QListWidget {
+    background-color: rgb(238,238,238);
+    font: 63 9pt "Yu Gothic UI Semibold";
+    border-color: rgb(93, 93, 93);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+QListWidget#lst_tags {
+    background-color: rgb(238,238,238);
+    font: italic 9pt "Georgia";
+    border-color: rgb(93, 93, 93);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+QListWidget:item {
+    font:bold;
+}
+
+QListWidget:item:hover {
+    background-color: rgba(200, 200, 200, 0.75);
+    border: none;
+}
+
+QListWidget:item:selected {
+    background-color: rgba(168, 168, 168, 0.55);
+    border: none;
+}
+
+QTextEdit {
+    background-color: rgb(238,238,238);
+    font: 63 9pt "Yu Gothic UI Semiligh";
+    border-color: rgb(93, 93, 93);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+QLineEdit {
+    background-color: rgb(238,238,238);
+    font: 63 9pt "Yu Gothic UI Semibold";
+    border-color: rgb(93, 93, 93);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px; 
+}
+
+QLabel {
+    background-color: none;
+    font: 63 12pt "Yu Gothic UI Semibold";
+}

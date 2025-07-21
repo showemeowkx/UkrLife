@@ -1,0 +1,50 @@
+QWidget {
+    background-color: qlineargradient(spread:pad, x1:0.303483, y1:0, x2:0.751, y2:1, stop:0 rgba(238, 238, 238, 255), stop:1 rgba(188, 188, 188, 255));
+}
+
+QLabel#label {
+    background-color: none;
+    font: 63 16pt "Yu Gothic UI Semibold";
+}
+
+QLabel {
+    background-color: none;
+    font: 63 8pt "Yu Gothic UI Semibold";
+}
+
+QPushButton {
+    background-color: rgb(153,153,153);
+    color: rgb(243,246,244);
+    border-color: rgb(148, 148, 148);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    font:"Yu Gothic UI Semilight";
+    font-size: 16pt;
+}
+
+QPushButton#b_mem_start {
+    background-color: rgb(91,91,91);
+    color: rgb(243,246,244);
+    border-color: rgb(86, 86, 86);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    font-size: 16pt;
+    font:"Yu Gothic UI Semilight";
+}
+
+
+QPushButton:hover {
+    background-color: rgb(168, 168, 168);
+    border-color: rgb(74, 74, 74)
+}
+
+QPushButton:hover:pressed {
+    background-color: rgb(91, 91, 91);
+}
+
+QPushButton#b_mem_start:hover {
+    background-color: rgb(106, 106, 106);
+    border-color: rgb(53, 53, 53)
+}
