@@ -49,3 +49,7 @@ UkrLife is a routine GUI Desktop application, which should help Ukrainians’ in
 ## Contributing
 
 Feel free to open issues or submit pull requests.
+
+## License
+
+This project is licensed under the MIT License.
